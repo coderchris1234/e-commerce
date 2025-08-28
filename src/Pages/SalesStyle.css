@@ -1,0 +1,78 @@
+.sales_container {
+  width: 100%;
+  min-height: 60vh;
+  height: max-content;
+  background-color: #f9f7f4;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+.Sales_body {
+  width: 95%;
+  min-height: 100%;
+  height: max-content;
+  /* background-color: brown; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+.sales_descp {
+  width: 30%;
+  height: max-content;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #6d625e;
+}
+.top-link > a {
+  color: #6d625e;
+}
+.sales_descp p:nth-child(2) {
+  /* Your styles here */
+  font-style: italic;
+  font-size: 1.5em;
+  color: #6d625e;
+}
+.sales_descp:first-child {
+  font-size: 1.2em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.content p {
+  font-size: 15px;
+}
+.content > img {
+  width: 270px;
+  height: 300px;
+}
+.price {
+  font-size: 11px;
+}
+.price > .slash {
+  text-decoration: line-through;
+}
+
+.discount-bagde {
+  background-color: #94705c;
+  width: max-content;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.main-price {
+  color: #94705c;
+}
