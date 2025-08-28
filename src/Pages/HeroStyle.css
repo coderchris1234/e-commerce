@@ -44,3 +44,25 @@
   font-size: 2rem;
   border-bottom: 1px solid white;
 }
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 476px) {
+}
+@media screen and (max-width: 414px) {
+  .Hero_Container {
+    display: flex;
+    justify-content: center;
+  }
+  .Hero_Content {
+    background-color: red;
+    height: max-content;
+    width: 90%;
+  }
+  .Hero_text > h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+}

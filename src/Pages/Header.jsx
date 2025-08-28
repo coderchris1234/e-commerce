@@ -39,6 +39,9 @@ const Header = () => {
         </div>
         <div className="second_header">
           <div className="second_header_wrapper">
+            <div className="menu">
+              <Icons class="fa fa-bars" />
+            </div>
             <img
               className="img_header"
               src="https://lapetitealice.com/wp-content/uploads/logo_la-petite-alice_dark_email.svg"
@@ -81,7 +84,7 @@ const Header = () => {
           <div className="icon_container">
             <Icons class="fa-solid fa-magnifying-glass" />
             <Icons class="fa-solid fa-circle-user" />
-            <span>
+            <span className="euro">
               <Icons class="fa-solid fa-euro-sign" />
               0.00
             </span>
